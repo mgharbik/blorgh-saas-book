@@ -15,6 +15,7 @@ end
 group :development, :test do
   gem 'rspec-rails', '3.0.1'
   gem 'capybara', '2.3.0'
+  gem 'factory_girl', "4.4.0"
 end
 
 gem 'bcrypt', '~> 3.1.7'
