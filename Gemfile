@@ -12,6 +12,11 @@ group :doc do
   gem 'sdoc', require: false
 end
 
+group :development, :test do
+  gem 'rspec-rails', '3.0.1'
+  gem 'capybara', '2.3.0'
+end
+
 gem 'bcrypt', '~> 3.1.7'
 
 gem 'bootstrap-sass', '3.1.1.0'
