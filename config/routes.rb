@@ -1,8 +1,6 @@
 require 'subscribem/constraints/subdomain_required'
 
 Blorgh::Application.routes.draw do
-  mount Subscribem::Engine, :at => '/'
-
   constraints(Subscribem::Constraints::SubdomainRequired) do
     root :to => "posts#index"
     resources :posts, only: [:index, :show] do
@@ -19,4 +17,6 @@ Blorgh::Application.routes.draw do
       resources :posts
     end
   end
+
+  mount Subscribem::Engine, :at => '/'
 end

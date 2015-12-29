@@ -29,6 +29,8 @@ ActiveRecord::Schema.define(version: 20151211161033) do
     t.integer  "account_id"
   end
 
+  add_index "posts", ["account_id"], name: "index_posts_on_account_id"
+
   create_table "subscribem_accounts", force: :cascade do |t|
     t.string   "name"
     t.datetime "created_at", null: false
