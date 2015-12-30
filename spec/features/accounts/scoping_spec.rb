@@ -1,4 +1,5 @@
 require 'rails_helper'
+require "subscribem/testing_support/authentication_helpers"
 require 'subscribem/testing_support/factories/account_factory'
 
 feature "Account scoping" do
