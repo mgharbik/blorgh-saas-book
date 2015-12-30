@@ -25,4 +25,4 @@ gem 'rabl', '0.9.3'
 gem 'warden'
 gem 'pry'
 
-gem 'subscribem', path: '../subscribem'
+gem 'subscribem', github: 'simo163/subscribem'

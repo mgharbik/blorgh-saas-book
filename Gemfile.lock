@@ -1,9 +1,9 @@
-PATH
-  remote: ../subscribem
+GIT
+  remote: git://github.com/simo163/subscribem.git
+  revision: d06b18a6cce033f39cef6a7904a74bc495308447
   specs:
     subscribem (0.0.1)
       bcrypt (= 3.1.10)
-      braintree (= 2.40)
       dynamic_form (= 1.1.4)
       houser (= 1.0.2)
       pg (= 0.18.3)
@@ -52,8 +52,6 @@ GEM
     bcrypt (3.1.10)
     bootstrap-sass (3.1.1.0)
       sass (~> 3.2)
-    braintree (2.40.0)
-      builder (>= 2.0.0)
     builder (3.2.2)
     capybara (2.3.0)
       mime-types (>= 1.16)
